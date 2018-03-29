@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  buildpack : nodejs_buildpack
+  domain: mybluemix.net
+  name: dbagcalc
+  host: dbagcalc
+  disk_quota: 128M

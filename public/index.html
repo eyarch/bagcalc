@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <title>Etihad Airways Baggage Calculator</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="bagcalcmin.js"></script>
+</head>
+
+<body>
+  <div class="form-group" align="center">
+    <img src="images/logo.jpg" class="img-responsive" alt="Etihad Airways Logo">
+  </div>
+
+  <form class="form-horizontal" role="form" action="none">
+        <div class="form-group">
+      <label for="fromarprt" class="col-sm-2 control-label">From</label>
+
+      <div class="col-sm-4">
+        <select id="from_arpt" class="form-control" name="fromarprt"></select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="destination" class="col-sm-2 control-label">To</label>
+
+      <div class="col-sm-4">
+        <select id="to_arpt" class="form-control" name="toarprt"></select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="class" class="col-sm-2 control-label">BookedCabin</label>
+
+      <div class="col-sm-4">
+        <select id="rbd" class="form-control" name="rbd"></select>
+      </div>
+    </div>
+
+
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-4">
+        <button id="allowbutton" class="btn btn-primary btn-sm" type="button">Baggage Allowance</button>
+        <button id="ratebutton" type="button" class="btn btn-primary btn-sm">Excess Baggage Rates</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-4">
+        <div id="allowpanel" class="alert alert-info" hidden>
+
+        </div>
+      </div>
+
+    </div>
+
+  </form>
+
+</body>
+
+</html>

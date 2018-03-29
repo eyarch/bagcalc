@@ -1,0 +1,21 @@
+{
+  "name": "bagcalc",
+  "version": "1.0.0",
+  "description": "Baggage Calculator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "amitabh"
+  ],
+  "author": "acheekoth@etihad.ae",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "request": "^2.83.0"
+  },
+  "engines": {
+    "node": "4.x"
+  }
+}
